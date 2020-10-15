@@ -37,7 +37,7 @@ class Song
     def genre=(genre)
       @genre = genre
       #binding.pry
-      if self == nil
+      if self.genre.songs == nil
       self.genre.songs << self
     end
     end
