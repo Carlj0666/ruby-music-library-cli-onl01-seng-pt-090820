@@ -4,7 +4,7 @@ class Song
   
     @@all = []
   
-    def initialize(name, )
+    def initialize(name, artist = nil)
       @name = name
       
     end
@@ -28,6 +28,9 @@ class Song
       new_song
     end
     
+    def artist=(artist)
+      @artist = artist
+    end
     
     
   end
