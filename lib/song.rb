@@ -8,7 +8,7 @@ class Song
       @name = name
       self.artist=(artist) if artist
       binding.pry
-      genre=(genre)
+      self.genre=(genre)
     end
 
   
