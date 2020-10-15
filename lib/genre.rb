@@ -17,6 +17,10 @@ class Genre
       self.all.clear
     end
     
+    def save
+      @@all << self
+    end
+    
   end
 
 
