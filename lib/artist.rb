@@ -29,6 +29,10 @@ class Artist
       new_song
     end
     
+    def add_song
+      # @songs << self
+      
+    end
 
   end
 
