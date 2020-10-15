@@ -2,8 +2,7 @@ require "pry"
 
 class Genre
   
-  attr_accessor :name
-  attr_reader :artist, :song
+  attr_accessor :name, :artist, :song
   
   @@all = []
   
@@ -38,4 +37,8 @@ class Genre
   def songs
     @songs
   end  
+  
+  # def artists
+  #   Song.all.select {|song| song.artist == self}
+  # end
 end
