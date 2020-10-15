@@ -1,60 +1,60 @@
 
 
-require "pry"
+# require "pry"
 
-class Song
+# class Song
   
-  attr_accessor :name, :artist, :genre
+#   attr_accessor :name, :artist, :genre
   
-  @@all = []
+#   @@all = []
   
-  def initialize(name, artist = nil, genre = nil)
-    @name = name
-    if artist
-      self.artist = artist 
-    end
+#   def initialize(name, artist = nil, genre = nil)
+#     @name = name
+#     if artist
+#       self.artist = artist 
+#     end
     
-    if genre
-      self.genre = genre
+#     if genre
+#       self.genre = genre
 
-    end
+#     end
     
-  end
+#   end
 
   
-  def self.all
-    @@all
-  end
+#   def self.all
+#     @@all
+#   end
   
 
-  def save
-    self.class.all << self
-  end
+#   def save
+#     self.class.all << self
+#   end
   
   
-  def self.destroy_all
-    self.all.clear
-  end
+#   def self.destroy_all
+#     self.all.clear
+#   end
   
 
-  def self.create(name)
-    song = Song.new(name)
-    song.save
-    song
-  end
+#   def self.create(name)
+#     song = Song.new(name)
+#     song.save
+#     song
+#   end
   
   
-  def artist=(artist)
-    @artist = artist
-    artist.add_song(self)
-  end
+#   def artist=(artist)
+#     @artist = artist
+#     artist.add_song(self)
+#   end
   
   
-  def genre=(genre)
-    if genre.name != nil
-    Genre.songs << self
-  end
-  end
+#   def genre=(genre)
+#     if genre.name != nil
+#     Genre.songs << self
+#   end
+#   end
   
   
-end
+# end
