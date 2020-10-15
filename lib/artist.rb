@@ -35,8 +35,8 @@ class Artist
       binding.pry
       @songs << song
       if song.artist
-      song.artist = self
-    end
+        song.artist = self
+      end
     end
 
   end
