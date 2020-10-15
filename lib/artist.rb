@@ -37,6 +37,7 @@ class Artist
       if song.artist
       song.artist = self
     end
+    end
 
   end
 
