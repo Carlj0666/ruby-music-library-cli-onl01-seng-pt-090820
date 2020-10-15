@@ -37,7 +37,6 @@ class Song
     def genre=(genre)
       @genre = genre
       self.genre.songs << self
-      self.genre.songs.uniq
     end
     
     
