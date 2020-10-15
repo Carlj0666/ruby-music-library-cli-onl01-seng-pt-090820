@@ -23,6 +23,7 @@ class Song
     
     def self.create(name)
       Song.new(name)
+      self
     end
     
   end
