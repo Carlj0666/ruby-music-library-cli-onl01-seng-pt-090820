@@ -42,7 +42,8 @@ class Artist
     end
     
     def genres
-      songs.genre.each do |genre|
+      songs.genre.map do |genre|
+        binding.pry
     end
 
   end
