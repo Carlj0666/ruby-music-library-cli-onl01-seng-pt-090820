@@ -42,7 +42,7 @@ class Artist
     end
     
     def genres
-      binding.pry
+      #binding.pry
     end
 
   end
