@@ -42,12 +42,7 @@ class Artist
     end
     
     def genres
-      all_genres =  []
       binding.pry
-      songs.genre.map do |genre|
-        all_genres << genre
-        all_genres
-      end
     end
 
   end
