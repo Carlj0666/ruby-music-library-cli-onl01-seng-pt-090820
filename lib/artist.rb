@@ -42,7 +42,7 @@ class Artist
     end
     
     def genres
-      binding.pry
+      songs.genre.each do |genre|
     end
 
   end
