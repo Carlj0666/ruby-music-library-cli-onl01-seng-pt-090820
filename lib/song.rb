@@ -38,7 +38,7 @@ class Song
       @genre = genre
       #binding.pry
       binding.pry
-      if self.genre.songs == nil
+      if self == self.genre.songs
         self.genre.songs << self
         end
     end
