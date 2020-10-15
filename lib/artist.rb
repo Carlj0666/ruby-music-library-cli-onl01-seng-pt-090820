@@ -44,6 +44,7 @@ class Artist
     def genres
       songs.genre.map do |genre|
         binding.pry
+      end
     end
 
   end
