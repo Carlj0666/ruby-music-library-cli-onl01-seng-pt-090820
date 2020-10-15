@@ -28,6 +28,7 @@ class Artist
       new_song.save
       new_song
     end
+    
 
   end
 
