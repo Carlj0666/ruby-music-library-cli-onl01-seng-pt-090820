@@ -40,6 +40,7 @@ class Song
       if self == nil
       self.genre.songs << self
     end
+    end
     
     
   end
