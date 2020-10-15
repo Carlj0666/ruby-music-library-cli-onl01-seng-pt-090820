@@ -42,8 +42,8 @@ class Artist
     end
     
     def genres
+      all_genres =  []
       songs.genre.map do |genre|
-        all_genres =  []
         all_genres << genre
         all_genres
       end
