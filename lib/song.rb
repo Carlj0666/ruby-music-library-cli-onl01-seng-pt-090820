@@ -36,7 +36,8 @@ class Song
     
     def genre=(genre)
       @genre = genre
-      self.genre.songs << self if self.song
+      self.genre.songs << self
+      
     end
     
     
